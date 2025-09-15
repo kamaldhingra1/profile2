@@ -7,17 +7,17 @@ import { SITE } from "@consts";
 <header transition:persist>
   <Container>
     <div class="flex flex-wrap justify-between gap-y-2">
-      <Link href={SITE.FULLURL} underline={false}>
+      <Link href=${SITE.FULLURL} underline={false}>
         <div class="font-semibold">
           {SITE.TITLE}&nbsp;🔬
         </div>
       </Link>
       <nav class="flex items-center gap-1 text-sm">
-        <Link href={SITE.FULLURL}"/blog">blog {SITE.FULLURL}</Link>
+        <Link href={'${SITE.FULLURL}/blog'} > blog {SITE.FULLURL}</Link>
         <span>
           {`/`}
         </span>
-        <Link href="./projects">projects {SITE.FULLURL}</Link>
+        <Link href={'${SITE.FULLURL}/projects'}>projects {SITE.FULLURL}</Link>
         <span>
           {`/`}
         </span>
