@@ -9,7 +9,7 @@ type Props = {
 const { entry } = Astro.props as {
   entry: CollectionEntry<"blog"> | CollectionEntry<"projects">;
 };
- const newurl = SITE.FULLURL+ entry.collection + entry.id;
+ const newurl = SITE.FULLURL+'/'+ entry.collection +'/'+ entry.id;
  //   href={`./${entry.collection}/${entry.id}`}
 ---
 <a href={newurl}> test</a>
