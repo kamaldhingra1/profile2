@@ -6,7 +6,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://kamaldhingra1.github.io",
+  site: "https://kamaldhingra1.github.io\profile2",
   base: "/profile2/",
   outDir: './docs',
   output: "static",
