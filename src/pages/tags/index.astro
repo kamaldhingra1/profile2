@@ -6,7 +6,7 @@ import { SITE } from "@consts";
 
 const posts = await getCollection("blog", ({ data }) => !data.draft);
 const tags = [...new Set(posts.flatMap((post) => post.data.tags || []))].sort();
-const tagurl = { SITE.FULLURL } +'/tags/';
+const tagurl = SITE.FULLURL  +'/tags/';
 ---
 
 <Layout title="Tags" description="List of tags used.">
