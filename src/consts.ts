@@ -5,6 +5,7 @@ export const SITE: Site = {
   FULLURL: "https://kamaldhingra1.github.io/profile2",
   FULLURL_B: "https://kamaldhingra1.github.io/profile2/blog",
   FULLURL_P: "https://kamaldhingra1.github.io/profile2/projects",
+  FULLURL_T: "https://kamaldhingra1.github.io/profile2/tags",
   DESCRIPTION: "Astro Micro is an accessible and lightweight blog.",
   EMAIL: "trevortylerlee@gmail.com",
   NUM_POSTS_ON_HOMEPAGE: 5,

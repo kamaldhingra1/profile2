@@ -5,6 +5,7 @@ export type Site = {
   FULLURL: string;
   FULLURL_B: string;
   FULLURL_P: string;
+  FULLURL_T: string;
   DESCRIPTION: string;
   EMAIL: string;
   NUM_POSTS_ON_HOMEPAGE: number;
