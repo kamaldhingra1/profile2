@@ -2,11 +2,12 @@ import type { Metadata, Site, Socials } from "@types";
 
 export const SITE: Site = {
   TITLE: "Kamal Dhingra",
+  TITLE2: "Cyber, AI Security Architecture & Beyond..",
   FULLURL: "https://kamaldhingra1.github.io/profile2",
   FULLURL_B: "https://kamaldhingra1.github.io/profile2/blog",
   FULLURL_P: "https://kamaldhingra1.github.io/profile2/projects",
   FULLURL_T: "https://kamaldhingra1.github.io/profile2/tags",
-  DESCRIPTION: "Astro Micro is an accessible and lightweight blog.",
+  DESCRIPTION: "Blog on Cyber, AI Security & Beyond..",
   EMAIL: "dhingra_kk@yahoo.com",
   NUM_POSTS_ON_HOMEPAGE: 5,
   NUM_PROJECTS_ON_HOMEPAGE: 3,

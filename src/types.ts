@@ -2,6 +2,7 @@ import type { UrlProxy } from "node_modules/astro/dist/assets/fonts/definitions"
 
 export type Site = {
   TITLE: string;
+  TITLE2: string;
   FULLURL: string;
   FULLURL_B: string;
   FULLURL_P: string;
