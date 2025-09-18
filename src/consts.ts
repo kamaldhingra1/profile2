@@ -9,7 +9,7 @@ export const SITE: Site = {
   FULLURL_T: "https://kamaldhingra1.github.io/profile2/tags",
   DESCRIPTION: "Blog on Cyber, AI Security & Beyond..",
   EMAIL: "dhingra_kk@yahoo.com",
-  NUM_POSTS_ON_HOMEPAGE: 5,
+  NUM_POSTS_ON_HOMEPAGE: 3,
   NUM_PROJECTS_ON_HOMEPAGE: 3,
 };
 
