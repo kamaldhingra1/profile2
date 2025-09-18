@@ -7,14 +7,14 @@ export const SITE: Site = {
   FULLURL_P: "https://kamaldhingra1.github.io/profile2/projects",
   FULLURL_T: "https://kamaldhingra1.github.io/profile2/tags",
   DESCRIPTION: "Astro Micro is an accessible and lightweight blog.",
-  EMAIL: "trevortylerlee@gmail.com",
+  EMAIL: "dhingra_kk@yahoo.com",
   NUM_POSTS_ON_HOMEPAGE: 5,
   NUM_PROJECTS_ON_HOMEPAGE: 3,
 };
 
 export const HOME: Metadata = {
   TITLE: "Home",
-  DESCRIPTION: "Astro Micro is an accessible theme for Astro.",
+  DESCRIPTION: "Cyber, AI Security Architecture & Beyond..",
 };
 
 export const BLOG: Metadata = {
@@ -30,12 +30,12 @@ export const PROJECTS: Metadata = {
 
 export const SOCIALS: Socials = [
   {
-    NAME: "X (formerly Twitter)",
-    HREF: "https://twitter.com/boogerbuttcheek",
+    NAME: "LinkedIn",
+    HREF: "https://www.linkedin.com/in/kamaldhingra/",
   },
   {
     NAME: "GitHub",
-    HREF: "https://github.com/trevortylerlee",
+    HREF: "https://github.com/kamaldhingra1",
   },
   {
     NAME: "Website",
