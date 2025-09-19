@@ -3,6 +3,11 @@ import Container from "@components/Container.astro";
 import { SITE, SOCIALS } from "@consts";
 import BackToTop from "@components/BackToTop.astro";
 import Link from "@components/Link.astro";
+
+import Envelope from '@/assets/social-icons/envelope.svg';
+import GitHub from '@/assets/social-icons/github.svg';
+import LinkedIn1 from '@/assets/social-icons/linkedin-in.svg';
+import Webx from '@/assets/social-icons/Web2.svg';
 ---
 
 <footer class="animate">
@@ -25,7 +30,10 @@ import Link from "@components/Link.astro";
                     external
                     aria-label={`${SITE.TITLE} on ${SOCIAL.NAME}`}
                   >
-                    {SOCIAL.NAME}
+                    {/* {SOCIAL.NAME}  */}
+                    { SOCIAL.NAME =='LinkedIn' ? <LinkedIn1  class="size-6" fill="currentColor"/> : null}
+                    { SOCIAL.NAME =='GitHub' ? <GitHub class="size-6" fill="currentColor"/> : null}
+                    { SOCIAL.NAME =='Web' ? <Webx class="size-6" fill="currentColor"/> : null}
                   </Link>
                   {"/"}
                 </li>
@@ -36,7 +44,8 @@ import Link from "@components/Link.astro";
                 href={`mailto:${SITE.EMAIL}`}
                 aria-label={`Email ${SITE.TITLE}`}
               >
-                Email
+            
+                <Envelope class="size-6" fill="currentColor"/>
               </Link>
             </li>
           </ul>
