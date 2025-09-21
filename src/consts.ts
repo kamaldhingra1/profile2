@@ -1,7 +1,7 @@
 import type { Metadata, Site, Socials } from "@types";
 
 
-const webURL = "https://kamaldhingra1.github.io/profile2";
+//const webURL = "https://kamaldhingra1.github.io/profile2";
 
 export const SITE: Site = {
   TITLE: "Kamal Dhingra",
@@ -39,11 +39,11 @@ export const SOCIALS: Socials = [
 
   },
 
-  {
-    NAME: "Web",
-    HREF: webURL,
+  // {
+  //   NAME: "Web",
+  //   HREF: webURL,
 
-  },
+  // },
     {
     NAME: "GitHub",
     HREF: "https://github.com/kamaldhingra1",
