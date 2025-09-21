@@ -54,7 +54,7 @@
 
   header {
     @apply fixed left-0 right-0 top-0 z-50 py-6;
-    @apply bg-gray-200/50 dark:bg-neutral-900/75;
+    @apply bg-slate-300/50 dark:bg-neutral-900/75;
     @apply saturate-200 backdrop-blur-xs;
   }
 
@@ -64,7 +64,7 @@
 
   footer {
     @apply py-6 text-sm;
-    @apply bg-gray-200/50 dark:bg-neutral-900/75;
+    @apply bg-slate-200/50 dark:bg-neutral-900/75;
   }
 
   article {
